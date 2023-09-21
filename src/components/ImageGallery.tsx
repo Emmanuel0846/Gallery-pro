@@ -78,7 +78,7 @@ const closeEnlargedImg = () => {
             <figure className="max-h-[17rem]">
               <img className={`my-image ${
             enlargedImg === image.imageUrl ? 'enlarged' : ''
-          }`} src={image.imageUrl} alt="photo" />
+          }`} draggable = {true} src={image.imageUrl} alt="photo" />
             </figure>
             <div className="card-body">
               <p>Upload by: {image.userEmail}</p>
